@@ -30,7 +30,7 @@ twitter_username: omorious
 github_username:  omorious
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
 
