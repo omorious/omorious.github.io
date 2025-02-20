@@ -23,7 +23,7 @@ email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Exploring the world with child-like curiosity, and thinking aloud as I do it.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://omorious.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: omorious
 github_username:  omorious
 
@@ -32,6 +32,33 @@ theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+
+
+# Theme Settings
+minimal_mistakes_skin: "default"  # Can be "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Site Author
+author:
+  name: "Omorious"
+  bio: "Your bio here"
+  # avatar: "/assets/images/bio-photo.jpg"  # Uncomment and add path to avatar if desired
+
+# Defaults for posts
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
