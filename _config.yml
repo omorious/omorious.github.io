@@ -28,14 +28,16 @@ twitter_username: omorious
 github_username:  omorious
 
 # Build settings
-theme: minimal-mistakes-jekyll
+#theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
 plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-
+  - jekyll-remote-theme
 
 # Theme Settings
 minimal_mistakes_skin: "default"  # Can be "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
