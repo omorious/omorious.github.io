@@ -45,7 +45,7 @@ minimal_mistakes_skin: "default"  # Can be "air", "aqua", "contrast", "dark", "d
 # Site Author
 author:
   name: "Omorious"
-  bio: "Your bio here"
+  bio: "Exploring the world with child-like curiosity, and thinking aloud as I do it."
   # avatar: "/assets/images/bio-photo.jpg"  # Uncomment and add path to avatar if desired
 
 # Defaults for posts
@@ -61,6 +61,11 @@ defaults:
       comments: true
       share: true
       related: true
+
+# Add navigation links
+navbar:
+  - title: "About"
+    url: /about/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
